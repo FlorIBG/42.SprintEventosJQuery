@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Flatness: Responsive Blog</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/grid-system.css"> -->
+</head>
+<body>
+	<header>  <!-- Menú y Logo -->
+		<div class="container-fluid">
+			<nav class="navbar ml-0 navbar-default pl-15 pr-0 navbar-inverse">  <!-- Menú de navegación -->
+				<div class="container">
+					<div class="navbar-header row">
+						<div class="col-xs-5 col-md-4">
+							<a class="navbar-brand" href="#">
+							<img class="img-responsive slide" src="image/header-logo.png" alt="Logo">
+						</a>
+						</div>
+				        <div class="col-xs-7 col-md-8">  <!-- Es para que se contraiga cuando la página se haga para dispositivos más chicos -->
+				        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+							<span class="sr-only">Menú</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbar-1"> <!-- Este es el menú que se ve en dispositivos grandes -->
+							<ul class="nav navbar-nav">
+							<li><a href="#">LIFESTYLE</a></li>
+							<li><a href="#">FLOWERS</a></li>
+							<li><a href="#">FASHION</a></li>
+							<li><a href="#">NEWS</a></li>
+							<li><a href="#">FEATURES</a></li>
+							</ul>
+							</div>
+				        </div>	
+					</div>	
+				</div>
+			</nav>
+		</div>
+	</header>
+	<article>
+		<section class="bg-floresmoradas"> <!-- Background de flores -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="cuadronegro1" id="textobg"> <!-- Cuadro negro -->
+							<p class="textnaranja orange"> <!-- Contenido -->
+								Spring Came
+							</p>
+							<span>Life</span>
+							<span>-</span>
+							<span>Amanda Ray</span>
+							<span>-</span>
+							<span>10th March 2015</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> 
+		<section>   <!-- Mosaico de tres imagenes -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 md-3 mt-3"> <!-- Flor 1 -->
+						<div class="cuadronegro1 pb-2 pt-2 ">
+							<img  src="image/image7.jpg" class="img-responsive" alt="imagen7">
+							<h4 class="orange">Floral fragrance</h4>
+							<p>Life Amanda Ray 10th March 2015</p>
+						</div>
+					</div>
+					<div class="col-md-4 md-3 mt-3">   <!-- Flor 2 -->
+						<div class="cuadronegro1 pb-2 pt-2 " id="cnf">
+							<img class="img-responsive" src="image/image3.jpg" alt="imagen3">
+							<h4 class="orange">Floral fragrance</h4>
+							<p>Life Amanda Ray 10th March 2015</p>
+						</div>
+					</div>
+					<div class="col-md-4 md-3 mt-3">  <!-- Flor 3 -->
+						<div class="cuadronegro1 pb-2 pt-2">
+							<img class="img-responsive" src="image/image2.jpg" alt="imagen2">
+							<h4 class="orange">Floral fragrance</h4>
+							<p>Life Amanda Ray 10th March 2015</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section><!--  Aside, articulo con imagen, barra de busqueda y video -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8"> <!-- Video y articulo con imagen -->
+						<div class="cuadronegro1">	<!-- Imagen -->
+							<img class="img-responsive" src="image/image4.jpg" alt="imagen4"> <!-- Titulo -->
+							<h4 class="orange text-center">Now with Flatness</h4>
+							<h5 class="text-center">News Amanda Ray 28th July 2015</h5> <!-- Contenido -->
+							<p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi excepturi illo a animi, maiores tenetur quisquam saepe atque ab, hic temporibus sapiente reiciendis cupiditate deserunt aperiam fugit nostrum, libero enim.</p> <!-- Video -->
+							<iframe class="img-responsive pb-2" src="https://player.vimeo.com/video/56810854"></iframe>
+							<p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet fuga optio, itaque ullam architecto veritatis culpa. Dolor, excepturi asperiores quas molestiae ipsam praesentium, est voluptatibus, doloribus illo error nesciunt.</p>	
+						</div>
+					</div>
+			  	  <aside>  <!-- Aside -->
+			  	    <div class="col-md-4 visible-lg">
+			  	    	<div class="cuadronegro1 pt-2 pb-2">
+			  	    		<form> <!-- Barra de busqueda -->
+			  	    			<input type="Search" placeholder="Search" class="buscador">
+			  	    		</form>
+			  	    	</div>  <!-- Acerca de mi -->
+			  	    	<div class="cuadronegro1">
+			  	    		<h4 class="orange text-center">About me</h4>
+			  	    		<img class="img-responsive" src="image/kew_gardens_3_500x500.jpg" alt="Foto">
+			  	    		<h5 class="text-center"><b>Amanda Rey</b></h5>
+			  	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptas, itaque id non dignissimos necessitatibus ipsam.</p>
+			  	    		<a href="#" target="_blank">
+			  	    		<img class="img-circle ml-3 pb-2" src="image/iconos/facebook-logo.png" alt="Facebook">
+			  	    		</a>
+			  	    		<a href="#" target="_blank">
+			  	    		<img class="img-circle ml-3 pb-2" src="image/iconos/instagram.png" alt="Instagram">
+			  	    		</a>
+			  	    		<a href="#" target="_blank">
+			  	    		<img class="img-circle ml-3 pb-2" src="image/iconos/twitter.png" alt="Twitter">
+			  	    		</a>
+			  	    		<a href="#" target="_blank">
+			  	    		<img class="img-circle ml-3 pb-2" src="image/iconos/youtube.png" alt="Youtube">
+			  	    		</a>
+			  	    	</div>
+			  	    </div>
+			  	  </aside>
+				</div>
+			</div>
+		</section>
+	</article>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="text-center pt-2 pb-2">All Rights Reserved &copy;</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="Bootstrap/js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script src="Bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src=js/main.js></script>
+</body>
+</html> 
